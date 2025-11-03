@@ -6,8 +6,7 @@ This project implements **ECG signal classification** using a **Siamese Convolut
 
 Instead of directly predicting classes, the model learns **feature embeddings**, where **similar ECG signals are mapped close together** and **dissimilar signals are mapped farther apart**.  
 
-The model demonstrates potential for **real-time ECG monitoring**, **arrhythmia detection**, and improved **clinical decision support**.
----
+The model demonstrates potential for real-time ECG monitoring, arrhythmia detection, and improved clinical decision support.
 
 ## Features
 - Siamese CNN architecture for ECG spectrograms  
@@ -16,8 +15,8 @@ The model demonstrates potential for **real-time ECG monitoring**, **arrhythmia 
 - Confusion matrix, accuracy, precision, recall, F1-score  
 - ROC and Precision-Recall curves
 ## Requirements
-numpy==1.24.0
-opencv-python==4.8.0
-scikit-learn==1.3.0
-matplotlib==3.8.0
-seaborn==0.12.3
+- numpy==1.24.0
+- opencv-python==4.8.0
+- scikit-learn==1.3.0
+- matplotlib==3.8.0
+- seaborn==0.12.3
